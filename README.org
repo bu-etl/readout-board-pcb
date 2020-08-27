@@ -1,0 +1,51 @@
+#+OPTIONS: ^:nil
+#+EXPORT_EXCLUDE_TAGS: noexport
+
+* Table of Contents :TOC_4:
+  - [[#useful-links][Useful Links]]
+    - [[#relevant-presentations][Relevant Presentations]]
+  - [[#block-diagrams][Block Diagrams]]
+    - [[#data-flow][Data Flow]]
+    - [[#power-distribution][Power Distribution]]
+    - [[#control-and-monitoring][Control and Monitoring]]
+  - [[#connectorsinterfaces][Connectors/Interfaces]]
+  - [[#mechanical-outline][Mechanical Outline]]
+  - [[#jumpers][Jumpers]]
+  - [[#pin-assignments][Pin Assignments]]
+    - [[#e-link-assignments][E-Link Assignments]]
+    - [[#lpgbt-pin-assignments][LPGBT Pin Assignments]]
+    - [[#sca-pin-assignments][SCA Pin Assignments]]
+
+** Useful Links
+- TDR - [[https://cds.cern.ch/record/2296612/files/LHCC-P-009.pdf][LHCC-P-009]]
+*** Relevant Presentations
+- 2019/05/13 - [[https://indico.cern.ch/event/820512/contributions/3429658/attachments/1842929/3023621/ETL-Cabling-S_Los-May13-2019.pdf][Update on Power board and Patch Panel-0]] (Sergey)
+- 2020/03/09 - [[https://indico.cern.ch/event/902328/contributions/3798257/attachments/2008611/3355343/2020-03-09_LV_scheme.pdf][ETL LV powering scheme]] (Natalia)
+- 2020/04/05 - [[https://indico.cern.ch/event/906805/contributions/3815774/attachments/2016073/3369701/2020-04-05-ETL-RBv2-Boston.pdf][ETL Readout Board v2]] (Andrew)
+- 2020/04/27 - [[https://indico.cern.ch/event/912420/contributions/3837314/attachments/2026902/3391190/Andy_Liu_-_Emulator_v1.1.pdf][EIE Dataformat]] (Andy)
+- 2020/06/02 - [[https://indico.cern.ch/event/931796/contributions/3915833/attachments/2061731/3458677/ETROC2-power-update-v1.pdf][ETROC Power consumption]] (Andrew)
+- 2020/07/13 - [[https://indico.cern.ch/event/939160/contributions/3946133/attachments/2073487/3481402/20200713_readout_board_interfaces.pdf][Readout Board Interfaces]] (Andrew)
+** Milestones :noexport:
+- 2020/XX/YY - Finish schematic and layout
+- 2020/XX/YY - Submit files to fab house
+** Block Diagrams
+*** Data Flow
+#+ATTR_HTML: :width 600px
+[[file:docs/data-flow.png]]
+*** Power Distribution
+#+ATTR_HTML: :width 600px
+#+ATTR_HTML: :width 600px
+[[file:docs/power-distribution.png]]
+*** Control and Monitoring
+#+ATTR_HTML: :width 600px
+[[file:docs/ctrl-and-mon.png]]
+
+** Connectors/Interfaces
+** Mechanical Outline
+#+attr_org: :width 700px
+[[file:docs/mechanical-outline.png]]
+** Jumpers
+** Pin Assignments
+*** E-Link Assignments
+*** LPGBT Pin Assignments
+*** SCA Pin Assignments
